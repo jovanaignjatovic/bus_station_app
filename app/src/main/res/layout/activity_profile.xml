@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".ProfileActivity"
+    android:background="@drawable/background_photo">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/card_bg"
+        android:padding="24dp"
+        android:elevation="4dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/logintext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Izmena profila"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/boja2"
+            android:layout_marginBottom="32dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ime"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/ime"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/edit_text"
+            android:drawablePadding="8dp"
+            android:paddingHorizontal="12dp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/baseline_person_outline_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prezime"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/prezime"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/edit_text"
+            android:drawablePadding="8dp"
+            android:paddingHorizontal="12dp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/baseline_person_outline_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/edit_text"
+            android:drawablePadding="8dp"
+            android:paddingHorizontal="12dp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/baseline_person_outline_24" />
+
+        <Button
+            android:id="@+id/passwordchange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:drawablePadding="8dp"
+            android:text="Promena lozinke"
+            android:textSize="16sp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Sačuvaj"
+            android:textSize="16sp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>

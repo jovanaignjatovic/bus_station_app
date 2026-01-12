@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_photo">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/logintext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registracija"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/boja2"
+            android:textAlignment="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="32dp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text"
+            android:drawablePadding="8dp"
+            android:hint="Ime"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text"
+            android:drawablePadding="8dp"
+            android:hint="Prezime"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text"
+            android:drawablePadding="8dp"
+            android:hint="Email"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text"
+            android:drawablePadding="8dp"
+            android:hint="Lozinka"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:layout_marginBottom="24dp"/>
+        <Button
+            android:id="@+id/regbutton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Registruj se"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_button"
+            android:layout_marginBottom="32dp" />
+
+    </LinearLayout>
+</ScrollView>

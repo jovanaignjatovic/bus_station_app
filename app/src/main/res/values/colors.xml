@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="boja1">#FFBB86FC</color>
+    <color name="boja2">#696594</color>
+    <color name="boja3">#5b218f</color>
+    <color name="boja4">#09084a</color>
+    <color name="red">#FF0000</color>
+    <color name="teal">#008080</color>
+    <color name="blue">#0000FF</color>
+    <color name="grey">#D3D3D3</color>
+    <color name="orange_700">#FFF57C00</color>
+</resources>
